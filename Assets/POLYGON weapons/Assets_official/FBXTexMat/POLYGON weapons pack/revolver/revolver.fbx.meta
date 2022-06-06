@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 5b3a6acff5e4f004b8d61738dfa20bdd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bullet_1
+    100002: bullet_1 1
+    100004: bullet_2
+    100006: bullet_2 1
+    100008: bullet_3
+    100010: bullet_3 1
+    100012: bullet_4
+    100014: bullet_4 1
+    100016: bullet_5
+    100018: bullet_5 1
+    100020: bullet_6
+    100022: bullet_6 1
+    100024: bullets
+    100026: bullets_holder
+    100028: Bullets_in_drum
+    100030: camera_renderer
+    100032: drum
+    100034: drum_open
+    100036: glass
+    100038: head
+    100040: head.001
+    100042: head.002
+    100044: head.003
+    100046: head.004
+    100048: head.005
+    100050: main
+    100052: reload_drm_bullets
+    100054: reload_trigger
+    100056: //RootNode
+    100058: revolver
+    100060: revolver_rig
+    100062: scope
+    100064: scope_tex
+    100066: suppressor
+    100068: trigger
+    400000: bullet_1
+    400002: bullet_1 1
+    400004: bullet_2
+    400006: bullet_2 1
+    400008: bullet_3
+    400010: bullet_3 1
+    400012: bullet_4
+    400014: bullet_4 1
+    400016: bullet_5
+    400018: bullet_5 1
+    400020: bullet_6
+    400022: bullet_6 1
+    400024: bullets
+    400026: bullets_holder
+    400028: Bullets_in_drum
+    400030: camera_renderer
+    400032: drum
+    400034: drum_open
+    400036: glass
+    400038: head
+    400040: head.001
+    400042: head.002
+    400044: head.003
+    400046: head.004
+    400048: head.005
+    400050: main
+    400052: reload_drm_bullets
+    400054: reload_trigger
+    400056: //RootNode
+    400058: revolver
+    400060: revolver_rig
+    400062: scope
+    400064: scope_tex
+    400066: suppressor
+    400068: trigger
+    2100000: Material.001
+    2100002: Material.007
+    2100004: Material.003
+    2100006: Material.006
+    2100008: Material.005
+    2300000: Bullets_in_drum
+    3300000: Bullets_in_drum
+    4300000: revolver
+    4300002: Bullets_in_drum
+    4300004: bullet_2
+    4300006: head.003
+    4300008: bullet_3
+    4300010: head.002
+    4300012: bullet_4
+    4300014: head.001
+    4300016: bullet_5
+    4300018: head.005
+    4300020: bullet_6
+    4300022: head
+    4300024: bullet_1
+    4300026: head.004
+    4300028: bullets_holder
+    4300030: bullets
+    4300032: scope
+    4300034: scope_tex
+    4300036: camera_renderer
+    4300038: glass
+    4300040: suppressor
+    9500000: //RootNode
+    13700000: bullet_1
+    13700002: bullet_2
+    13700004: bullet_3
+    13700006: bullet_4
+    13700008: bullet_5
+    13700010: bullet_6
+    13700012: bullets
+    13700014: bullets_holder
+    13700016: camera_renderer
+    13700018: glass
+    13700020: head
+    13700022: head.001
+    13700024: head.002
+    13700026: head.003
+    13700028: head.004
+    13700030: head.005
+    13700032: revolver
+    13700034: scope
+    13700036: scope_tex
+    13700038: suppressor
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

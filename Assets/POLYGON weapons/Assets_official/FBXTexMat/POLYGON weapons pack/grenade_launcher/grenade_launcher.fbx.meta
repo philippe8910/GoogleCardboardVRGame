@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 255ca986eb3068e488fdf056f3346d71
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: cam
+    100002: cap
+    100004: cap.001
+    100006: cap.002
+    100008: cap.003
+    100010: cap.004
+    100012: cap.005
+    100014: Dot
+    100016: drum
+    100018: glass_a
+    100020: glass_b
+    100022: grenade
+    100024: grenade.001
+    100026: grenade.002
+    100028: grenade.003
+    100030: grenade.004
+    100032: grenade.005
+    100034: //RootNode
+    100036: grenades_A
+    100038: grenades_B
+    100040: grenades_C
+    100042: grenades_D
+    100044: grenades_E
+    100046: grenades_F
+    100048: m32
+    100050: M32_rig
+    100052: main
+    100054: reload
+    400000: cam
+    400002: cap
+    400004: cap.001
+    400006: cap.002
+    400008: cap.003
+    400010: cap.004
+    400012: cap.005
+    400014: Dot
+    400016: drum
+    400018: glass_a
+    400020: glass_b
+    400022: grenade
+    400024: grenade.001
+    400026: grenade.002
+    400028: grenade.003
+    400030: grenade.004
+    400032: grenade.005
+    400034: //RootNode
+    400036: grenades_A
+    400038: grenades_B
+    400040: grenades_C
+    400042: grenades_D
+    400044: grenades_E
+    400046: grenades_F
+    400048: m32
+    400050: M32_rig
+    400052: main
+    400054: reload
+    2100000: Material
+    2100002: Material.001
+    4300000: m32
+    4300002: cam
+    4300004: glass_a
+    4300006: glass_b
+    4300008: Dot
+    4300010: grenades_E
+    4300012: cap
+    4300014: grenades_D
+    4300016: cap.002
+    4300018: grenades_C
+    4300020: cap.003
+    4300022: grenades_B
+    4300024: cap.004
+    4300026: grenades_A
+    4300028: cap.005
+    4300030: grenades_F
+    4300032: cap.001
+    9500000: //RootNode
+    13700000: cam
+    13700002: cap
+    13700004: cap.001
+    13700006: cap.002
+    13700008: cap.003
+    13700010: cap.004
+    13700012: cap.005
+    13700014: Dot
+    13700016: glass_a
+    13700018: glass_b
+    13700020: grenades_A
+    13700022: grenades_B
+    13700024: grenades_C
+    13700026: grenades_D
+    13700028: grenades_E
+    13700030: grenades_F
+    13700032: m32
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
