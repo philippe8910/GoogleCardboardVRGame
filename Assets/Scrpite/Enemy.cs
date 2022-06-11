@@ -50,5 +50,14 @@ namespace Scrpite{
 		private void Die(){
 			gameObject.SetActive(false);
 		}
+
+		private void OnTriggerEnter(Collider other)
+		{
+			if (other.CompareTag("Player"))
+			{
+				GameObject.FindObjectOfType<PlayerHpBar>().Hurt(0.1f);
+				Destroy(gameObject);
+			}
+		}
 	}
 }
