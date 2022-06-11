@@ -36,5 +36,11 @@ public class PlayerHpBar : MonoBehaviour
         
         videoPlayer.SetDirectAudioVolume(1 , a);
         screemEffect.color = m_color;
+
+
+        if (hpSlider.value <= 0)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+        }
     }
 }
