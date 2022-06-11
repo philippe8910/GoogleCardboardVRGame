@@ -15,6 +15,10 @@ public class Pistal : MonoBehaviour
     [SerializeField] private int BulletCount = 6;
 
     [SerializeField] private bool isReloading = false;
+
+    [SerializeField] private BoxCollider boxCollider;
+    
+    [SerializeField] private Animator animator;
     
     // Start is called before the first frame update
     void Start()
@@ -30,7 +34,7 @@ public class Pistal : MonoBehaviour
 
     public void GunDisenableBox()
     {
-        Destroy(GetComponent<BoxCollider>());
+        Destroy(boxCollider);
     }
 
     private IEnumerator StartLerp()
@@ -56,7 +60,7 @@ public class Pistal : MonoBehaviour
         
         if (Vector3.Distance(transform.position , GunPos.transform.position) <= 0.01f)
         {
-            transform.parent = Camera.main.transform;
+            transform.parent = GameObject.Find("Hand").transform;
             yield return null;
         }
         else
@@ -68,6 +72,7 @@ public class Pistal : MonoBehaviour
 
     public void Shooting()
     {
+        /*
         if(isReloading) return;
 
         BulletCount--;
@@ -78,6 +83,9 @@ public class Pistal : MonoBehaviour
             isReloading = true;
             Invoke("UnReloading" , 2);
         }
+        */
+        
+        animator.Play("HandFire");
     }
 
     public void UnReloading()

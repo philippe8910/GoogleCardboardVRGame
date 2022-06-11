@@ -13,10 +13,14 @@ namespace Scrpite{
 		private Rigidbody _rigidbody;
 		private Transform _target;
 
+		[SerializeField] private Pistal pistal;
+
 		private void Start(){
 			_hp = startHp;
 			_moveSpeed = startMoveSpeed;
 			_rigidbody = GetComponent<Rigidbody>();
+
+			pistal = GameObject.FindObjectOfType<Pistal>().GetComponent<Pistal>();
 		}
 
 		private void Update(){
@@ -28,6 +32,11 @@ namespace Scrpite{
 			var forward = transform.forward;
 			var forwardDirection = forward * _moveSpeed;
 			_rigidbody.velocity = forwardDirection;
+		}
+
+		public void GetFire()
+		{
+			pistal.Shooting();
 		}
 
 		public void SetTarget(Transform target){
