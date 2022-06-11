@@ -96,7 +96,9 @@ public class Pistal : MonoBehaviour
         animator.Play("HandFire");
         fireSoundEffect.Play();
 
-        Instantiate(bulletPrefab, firePoint.position, firePoint.transform.rotation);
+        var rig = Instantiate(bulletPrefab, firePoint.position, firePoint.transform.rotation);
+        
+        rig.GetComponent<Rigidbody>().AddForce(rig.transform.forward * 10, ForceMode.Impulse);
     }
 
     public void UnReloading()
