@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 210356001365909222}
   - component: {fileID: 5119689603859277049}
   - component: {fileID: 2185573577897669844}
-  - component: {fileID: 114871827977967194}
-  - component: {fileID: 114540984920659204}
+  - component: {fileID: 9163806568461351049}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -94,7 +93,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114871827977967194
+--- !u!114 &9163806568461351049
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,17 +110,6 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114540984920659204}
-          m_MethodName: TakeShoot
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 3695961552650848778}
           m_MethodName: SetActive
           m_Mode: 6
@@ -134,17 +122,3 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   delegates: []
---- !u!114 &114540984920659204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3695961552650848778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd9f033c733c45bca6ec23f99eb97328, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startHp: 1
-  startMoveSpeed: 2
