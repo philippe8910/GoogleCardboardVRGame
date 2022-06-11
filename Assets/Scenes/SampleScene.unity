@@ -13530,7 +13530,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1795064144}
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -18988,6 +18988,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764479411}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1795064144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9059750643617597528, guid: 71dd6bbc51a28bb4486cc6d68bfb4dfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1281935280}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1843303454
 GameObject:
   m_ObjectHideFlags: 0
