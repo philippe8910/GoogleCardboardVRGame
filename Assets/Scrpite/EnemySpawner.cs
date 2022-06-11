@@ -9,11 +9,13 @@ namespace Scrpite{
 
 		public List<GameObject> enemyReferenceList = new List<GameObject>();
 
+		public float _timeMax = 3;
+
 
 		private ColdDownTimer _timer;
 
 		private void Start(){
-			_timer = new ColdDownTimer(3f);
+			_timer = new ColdDownTimer(2);
 		}
 
 		private void Update(){
