@@ -1783,6 +1783,7 @@ GameObject:
   - component: {fileID: 879158800}
   - component: {fileID: 879158799}
   - component: {fileID: 879158798}
+  - component: {fileID: 879158805}
   m_Layer: 5
   m_Name: HpBar
   m_TagString: Untagged
@@ -1916,6 +1917,21 @@ RectTransform:
   m_AnchoredPosition: {x: -2.019, y: 0.996}
   m_SizeDelta: {x: 5068.794, y: 2324.8682}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &879158805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879158797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c156a62a5d1b1e47a420e65e5d5eb2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpSlider: {fileID: 153235757}
+  screemEffect: {fileID: 2047469135}
+  videoPlayer: {fileID: 2047469137}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,7 +2408,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168064140}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -2453,7 +2469,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168064140}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.97}
+  m_LocalPosition: {x: 0, y: 0, z: 0.397}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_Children:
   - {fileID: 2047469134}
@@ -4039,14 +4055,14 @@ RectTransform:
   m_GameObject: {fileID: 2047469133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 42.966076, y: 18.155134, z: 16.209942}
+  m_LocalScale: {x: 19.792753, y: 8.363344, z: 7.467272}
   m_Children: []
   m_Father: {fileID: 1168064145}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000018626, y: 0}
+  m_AnchoredPosition: {x: 0.0000083815, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2047469135
@@ -4106,7 +4122,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
