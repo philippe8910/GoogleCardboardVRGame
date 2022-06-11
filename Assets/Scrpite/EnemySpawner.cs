@@ -8,8 +8,8 @@ namespace Scrpite{
 		[SerializeField] private List<Transform> spawnPoints;
 
 		public List<GameObject> enemyReferenceList = new List<GameObject>();
-		
-		
+
+
 		private ColdDownTimer _timer;
 
 		private void Start(){
@@ -31,9 +31,8 @@ namespace Scrpite{
 			var randomSpawnNumber = Random.Range(0, spawnPoints.Count);
 			var randomPosition =
 					spawnPoints[randomSpawnNumber].position + Vector3.up * enemyPrefab.transform.position.y;
-			var enemy = Instantiate(enemyPrefab, randomPosition, enemyPrefab.transform.rotation);
-			enemyReferenceList.Add(enemy);
+			var enemyPre = Instantiate(enemyPrefab, randomPosition, enemyPrefab.transform.rotation);
+			enemyReferenceList.Add(enemyPre);
 		}
-
 	}
 }

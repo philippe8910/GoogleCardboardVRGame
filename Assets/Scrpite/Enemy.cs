@@ -9,17 +9,25 @@ namespace Scrpite{
 		[SerializeField] private float startMoveSpeed;
 
 		private int _hp;
+		private Rigidbody _rigidbody;
 		private float _moveSpeed;
 
 		private void Start(){
 			_hp = startHp;
 			_moveSpeed = startMoveSpeed;
+			_rigidbody = GetComponent<Rigidbody>();
 		}
 
 		public void TakeShoot(){
 			_hp -= 1;
 			_moveSpeed -= 0.1f;
 			CheckState();
+		}
+
+		private void Update(){
+			var forwardDirection = transform.forward;
+			var velocity = forwardDirection * _moveSpeed;
+			_rigidbody.velocity = velocity;
 		}
 
 		private void CheckState(){
