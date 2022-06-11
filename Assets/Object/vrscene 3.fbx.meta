@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 22d29dfc5a3636c40aab7199e1205ea3
+guid: 8d46e803e01f535429a1c06e704237c3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -62,9 +62,10 @@ ModelImporter:
     2100000: Material.001
     2100002: emssion2
     2100004: emission
-    2100006: emssion5
-    2100008: emission3
-    2100010: emssion4
+    2100006: emssion3
+    2100008: emssion5
+    2100010: emission3
+    2100012: emssion4
     2300000: Cube
     2300002: Cube.001
     2300004: Cube.002
