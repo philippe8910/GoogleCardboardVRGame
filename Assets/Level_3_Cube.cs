@@ -23,7 +23,7 @@ public class Level_3_Cube : MonoBehaviour
         }
         else
         {
-            MainPistal.Throwing(transform);
+            
         }
     }
 
