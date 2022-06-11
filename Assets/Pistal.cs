@@ -21,12 +21,6 @@ public class Pistal : MonoBehaviour
         BulletText.text = "" + BulletCount;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void StartGet()
     {
         StartCoroutine(StartGetGun());
@@ -65,31 +59,10 @@ public class Pistal : MonoBehaviour
         }
     }
 
-    private IEnumerator StartThrow(Transform TargetPos)
-    {
-        if (Vector3.Distance(transform.position , TargetPos.position) >= 0.1f)
-        {
-            transform.position = Vector3.Lerp(transform.position , TargetPos.position , 0.1f);
-            transform.Rotate(15,0,0);
-            yield return new WaitForSeconds(.01f);
-            StartCoroutine(StartThrow(TargetPos));
-        }
-        else
-        {
-            yield return null;
-        }
-    }
-
     public void Shooting()
     {
         BulletCount--;
         BulletText.text = "" + BulletCount;
-    }
-
-    public void Throwing(Transform pos)
-    {
-        transform.parent = null;
-        StartCoroutine(StartThrow(pos));
     }
 
     public bool BulletCheck()
@@ -102,23 +75,5 @@ public class Pistal : MonoBehaviour
         {
             return false;
         }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "CanDestoryObject")
-        {
-            Destroy(gameObject);
-            
-            if(other.GetComponent<Level_3_Cube>()) other.gameObject.GetComponent<Level_3_Cube>().ThrowingAttack();
-            
-            other.gameObject.SetActive(false);
-            //Destroy(collision.gameObject);
-        }
-    }
-
-    public void OnCollisionEnter(Collision collision)
-    {
-        
     }
 }
