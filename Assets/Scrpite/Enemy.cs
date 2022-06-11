@@ -37,6 +37,7 @@ namespace Scrpite{
 		public void GetFire()
 		{
 			pistal.Shooting();
+			TakeShoot();
 		}
 
 		public void SetTarget(Transform target){

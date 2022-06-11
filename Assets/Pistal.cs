@@ -25,6 +25,8 @@ public class Pistal : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
 
     [SerializeField] private Transform firePoint;
+
+    [SerializeField] private GameObject paticeFire;
     
     // Start is called before the first frame update
     void Start()
@@ -97,8 +99,12 @@ public class Pistal : MonoBehaviour
         fireSoundEffect.Play();
 
         var rig = Instantiate(bulletPrefab, firePoint.position, firePoint.transform.rotation);
+        var pic = Instantiate(paticeFire , firePoint.position, firePoint.transform.rotation);
         
         rig.GetComponent<Rigidbody>().AddForce(rig.transform.forward * 10, ForceMode.Impulse);
+        
+        Destroy(rig , 2);
+        Destroy(pic , 2);
     }
 
     public void UnReloading()
