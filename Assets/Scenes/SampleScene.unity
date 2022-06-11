@@ -2968,6 +2968,7 @@ MonoBehaviour:
   isReloading: 0
   boxCollider: {fileID: 1919652731}
   animator: {fileID: 1659446968}
+  fireSoundEffect: {fileID: 0}
 --- !u!82 &1046438264
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4446,7 +4447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 5b3a6acff5e4f004b8d61738dfa20bdd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.002
+      value: 0.059
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 5b3a6acff5e4f004b8d61738dfa20bdd, type: 3}
       propertyPath: m_LocalPosition.y
