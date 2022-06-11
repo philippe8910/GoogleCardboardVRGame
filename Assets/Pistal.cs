@@ -13,6 +13,8 @@ public class Pistal : MonoBehaviour
     [SerializeField] private Text BulletText;
 
     [SerializeField] private int BulletCount = 6;
+
+    [SerializeField] private bool isReloading = false;
     
     // Start is called before the first frame update
     void Start()
@@ -61,8 +63,22 @@ public class Pistal : MonoBehaviour
 
     public void Shooting()
     {
+        if(isReloading) return;
+
         BulletCount--;
         BulletText.text = "" + BulletCount;
+
+        if (BulletCount <= 0)
+        {
+            isReloading = true;
+            Invoke("UnReloading" , 2);
+        }
+    }
+
+    public void UnReloading()
+    {
+        isReloading = false;
+        BulletCount = 6;
     }
 
     public bool BulletCheck()
