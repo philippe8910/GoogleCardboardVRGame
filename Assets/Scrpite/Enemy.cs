@@ -10,10 +10,28 @@ namespace Scrpite{
 
 		private int _hp;
 		private float _moveSpeed;
+		private Rigidbody _rigidbody;
+		private Transform _target;
 
 		private void Start(){
 			_hp = startHp;
 			_moveSpeed = startMoveSpeed;
+			_rigidbody = GetComponent<Rigidbody>();
+		}
+
+		private void Update(){
+			var distance = Vector3.Distance(transform.position, _target.position);
+			if(distance < 0.3){
+				_moveSpeed = 0;
+			}
+
+			var forward = transform.forward;
+			var forwardDirection = forward * _moveSpeed;
+			_rigidbody.velocity = forwardDirection;
+		}
+
+		public void SetTarget(Transform target){
+			_target = target;
 		}
 
 		public void TakeShoot(){
