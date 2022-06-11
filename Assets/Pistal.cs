@@ -28,6 +28,11 @@ public class Pistal : MonoBehaviour
         StartCoroutine(StartGetGun());
     }
 
+    public void GunDisenableBox()
+    {
+        Destroy(GetComponent<BoxCollider>());
+    }
+
     private IEnumerator StartLerp()
     {
         transform.position = Vector3.Lerp(transform.position, StartPos, 0.1f);
