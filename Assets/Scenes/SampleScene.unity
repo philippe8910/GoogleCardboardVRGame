@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 1261463073}
   - component: {fileID: 1261463074}
   m_Layer: 5
-  m_Name: Hp_Bar
+  m_Name: MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2869,6 +2869,7 @@ MonoBehaviour:
   GunPos: {fileID: 612273292}
   BulletText: {fileID: 626367405}
   BulletCount: 6
+  isReloading: 0
 --- !u!114 &1919652730
 MonoBehaviour:
   m_ObjectHideFlags: 0
