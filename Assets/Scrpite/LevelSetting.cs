@@ -9,8 +9,11 @@ namespace Scrpite{
 
 		private void Update(){
 			if(CurrentEnemyCount <= totalEnemyCount) return;
-			enemySpawner.enabled = false;
-			Debug.Log($"123");
+
+			totalEnemyCount += 10;
+			enemySpawner._timeMax -= 0.4f;
+			enemySpawner._timeMax = Mathf.Clamp(enemySpawner._timeMax, 0.5f, 3);
+
 		}
 	}
 }
