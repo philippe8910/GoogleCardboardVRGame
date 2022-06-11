@@ -19,12 +19,16 @@ public class Pistal : MonoBehaviour
     [SerializeField] private BoxCollider boxCollider;
     
     [SerializeField] private Animator animator;
+
+    [SerializeField] private AudioSource fireSoundEffect;
     
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(StartLerp());
         BulletText.text = "" + BulletCount;
+
+        fireSoundEffect = GetComponent<AudioSource>();
     }
 
     public void StartGet()
@@ -86,6 +90,7 @@ public class Pistal : MonoBehaviour
         */
         
         animator.Play("HandFire");
+        fireSoundEffect.Play();
     }
 
     public void UnReloading()
